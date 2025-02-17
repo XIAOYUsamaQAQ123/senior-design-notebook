@@ -1,0 +1,12 @@
+,Component,Estimated Cost (USD)
+0,Raspberry Pi 4 (Processing Unit),55
+1,Raspberry Pi Camera Module,30
+2,Bluetooth Adapter (for Camera),10
+3,LCD Display (OLED/Standard),20
+4,Physical Buttons (4x),8
+5,LED Notification System,5
+6,"Power Supply (USB-C Adapter, 5V 3A)",15
+7,Battery Pack for Camera (3.7V Li-ion + Boost Converter),20
+8,Wiring & Connectors,10
+9,"Miscellaneous (PCB, Casing, Fasteners)",25
+10,Total Estimated Cost,198
