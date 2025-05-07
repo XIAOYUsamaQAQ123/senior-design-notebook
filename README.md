@@ -7,4 +7,4 @@ This repository serves as a **digital lab notebook** for Liangcheng's Senior Des
 - **experiments/** → Experimental results.
 - **src/** → Source code for the project.
 - **hardware/** → PCB designs, schematics, and CAD files.
-- **reports/** → Proposal, mid-term, and final reports.
+- **reports/** → Proposal, presentation, and final reports.
