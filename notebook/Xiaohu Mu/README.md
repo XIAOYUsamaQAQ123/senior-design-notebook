@@ -3,13 +3,15 @@
 - [2025-02-17-Discussion with Professor Fliflet](##2025-02-17-Discussion-with-Professor-Fliflet)
 - [2025-02-27-PCB Update](##2025-02-27-PCB-Update)
 - [2025-03-03-Initial Design on Breadboard](2025-03-03-Initial-Design-on-Breadboard)
+- [2025-03-17-Working on the YOLOV5 model](2025-03-17-Working-on-the-YOLOV5-model)
 ---
 ## 2025-02-17-Discussion with Professor Fliflet
-Professor Fliflet gave us suggestions to implement the ideas we mentioned in our proposal during the proposal review. We came with the idea to use the YOLOV5 model as our baseline and use it to recognize and classify tools from different categories. We planed to train the model first on our laptop then transplant the program to raspberry pi. We also decided to use the LCD screen to show item status on the bench and drawer.
+During the proposal review, Professor Fliflet provided suggestions for implementing the ideas we outlined. We decided to use the YOLOv5 model as our baseline to recognize and classify tools across various categories. We plan to train the model on our laptop before deploying it to a Raspberry Pi. Additionally, we will use an LCD screen to display item statuses on both the bench and in the drawer.
 ## 2025-02-27-PCB Update
-We came with our initial design of PCB. In this design, we included the STM32 microprocessor, LED, and buzzer. 
+We came up with an initial PCB design that includes the STM32 microcontroller, an LED, and a buzzer.
 ![PCB Initial Design](图片_20250508165003.png)
 ## 2025-03-03-Initial Design on Breadboard
-For our breadboard demo, we tried to connect the LCD screen to the STM32. But the LCD screen did not work as expected. The STM32 microprocessor also did not transmit data stably to the laptop.
+For our breadboard demonstration, we attempted to connect the LCD screen to the STM32 microcontroller, but it did not function as expected. Additionally, the STM32 failed to transmit data reliably to the laptop.
 ![LCD Touch Screen](971369d1c9eb475d7267e6433073daa.png)
-## 2025-03-03-Initial Design on Breadboard
+## 2025-03-17-Working on the YOLOV5 model
+I trained a YOLOv5 model to recognize tools across different categories, using a dataset from [Kaggle](https://www.kaggle.com/datasets/vdeshmukh18/segmented-screw-driver-dataset). Initially, I trained the model on approximately 200 images per category. However, when I use the model to detect screwdrivers, it takes a long time to recognize the item.
