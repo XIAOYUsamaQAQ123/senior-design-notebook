@@ -11,3 +11,5 @@ We came with our initial design of PCB. In this design, we included the STM32 mi
 ![PCB Initial Design](图片_20250508165003.png)
 ## 2025-03-03-Initial Design on Breadboard
 For our breadboard demo, we tried to connect the LCD screen to the STM32. But the LCD screen did not work as expected. The STM32 microprocessor also did not transmit data stably to the laptop.
+![LCD Touch Screen](971369d1c9eb475d7267e6433073daa.png)
+## 2025-03-03-Initial Design on Breadboard
