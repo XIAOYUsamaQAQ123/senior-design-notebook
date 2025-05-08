@@ -2,8 +2,8 @@
 - [Xiaohu Worklog](#Xiaohu-worklog)
 - [2025-02-17-Discussion with Professor Fliflet](##2025-02-17-Discussion-with-Professor-Fliflet)
 - [2025-02-27-PCB Update](##2025-02-27-PCB-Update)
-- [2025-03-03-Initial Design on Breadboard](2025-03-03-Initial-Design-on-Breadboard)
-- [2025-03-17-Working on the YOLOV5 model](2025-03-17-Working-on-the-YOLOV5-model)
+- [2025-03-03-Initial Design on Breadboard](#2025-03-03-Initial-Design-on-Breadboard)
+- [2025-03-17-Working on the YOLOV5 model](#2025-03-17-Working-on-the-YOLOV5-model)
 ---
 ## 2025-02-17-Discussion with Professor Fliflet
 During the proposal review, Professor Fliflet provided suggestions for implementing the ideas we outlined. We decided to use the YOLOv5 model as our baseline to recognize and classify tools across various categories. We plan to train the model on our laptop before deploying it to a Raspberry Pi. Additionally, we will use an LCD screen to display item statuses on both the bench and in the drawer.
