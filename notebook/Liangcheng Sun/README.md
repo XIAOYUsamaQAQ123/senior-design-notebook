@@ -3,11 +3,11 @@
 Here is Liangcheng Sun’s worklog.
 
 ---
-[Project spec (Word)](./docs/spec.docx)
 - [**2025-02-12 – Project design & proposal**] 
   I am drawing the full block diagram for our system and then writing up the project proposal so we have a clear plan.
-  [Proposal](./block_diagram.pdf)![image]
-  PCB schematic and design:(https://github.com/user-attachments/assets/8c1546c0-e529-433e-b971-230e47ce6992)![image](https://github.com/user-attachments/assets/3243513e-a6d3-4d07-b386-b5bfd8e293c6)
+  [Block Diagram](./block_diagram.pdf)
+  [PCB Schematic](./main_control_board_schematic.pdf)
+  [PCB Design](./main_control_board.pdf)
 
 
 - [**2025-02-21 – Hardware components ordered online**]
@@ -39,6 +39,9 @@ Here is Liangcheng Sun’s worklog.
 
 - [**2025-04-23 – Redesign: ATmega328 + remote display + nRF24L01**]
   We redesigned our system: kept the ATmega328, removed the OLED in favor of a screen on a remote device, and added two nRF24L01 modules so the Pi and ATmega can talk wirelessly; I then laid out and ordered a new PCB.
+  [New Block Diagram](./final_block_diagram.pdf)
+  [New PCB Schematic](./alert_system_board_schematic.pdf)
+  [New PCB Design](./alert_system_board.pdf)
   nRF24L01:![image](https://github.com/user-attachments/assets/b5c3dcf5-8f0e-4e9d-a20b-c091f208e49f)
 
 - [**2025-04-26 – Swapped Pi camera for webcam**(./2025-04-26.md)  
