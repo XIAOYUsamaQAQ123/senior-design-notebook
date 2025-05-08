@@ -6,7 +6,7 @@ Here is Liangcheng Sun’s worklog. For project documents, images, and source fi
 
 - [**2025-02-12 – Project design & proposal**] 
   I am drawing the full block diagram for our system and then writing up the project proposal so we have a clear plan.
-  Proposal: (hardware/block_diagram.pdf)
+  Proposal: (./hardware/block_diagram.pdf)
 - [**2025-02-21 – Hardware components ordered online**]
   Based on our design, I went online to order all the needed parts, and I made sure each piece matches our specs.
 
